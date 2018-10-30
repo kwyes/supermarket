@@ -1,0 +1,209 @@
+
+
+
+/* following are footer divs */
+
+/* unvisited link */
+nav a:link {
+    color: #747474;
+}
+
+/* visited link */
+nav a:visited {
+    color: #747474;
+}
+
+/* mouse over link */
+nav a:hover {
+    color: #000;
+}
+
+/* selected link */
+nav a:active {
+    color: #000;
+}
+
+nav a:link {
+    text-decoration: none;
+}
+
+nav a:visited {
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: none;
+}
+
+nav a:active {
+    text-decoration: none;
+}
+
+
+nav#side{
+padding: 10px 10px 10px 5px;
+width:170px;
+float:left;
+
+}
+
+nav#side h3{
+color: #e42128;
+font-size: 24px;
+margin:10px 0px;
+padding:0px;
+padding-bottom:3px;
+
+}
+
+
+a.nav_border{
+display:block;
+font-size: 12px;
+border-top: 2px solid #D4D4D4;
+padding:16px 15px ;
+
+}
+
+
+nav.weeklyflyer a#weeklyflyer,
+nav.subscribe a#subscribe,
+nav.managerschoice a#managerschoice{
+font-weight:bold;
+}
+
+
+
+
+/*nav END*/
+
+
+
+
+
+div.content_wrapper{
+padding:5px;
+float:right;
+border:0px solid #D4D4D4; /* delete when done*/ 
+width:77%
+}
+
+
+div.content_wrapper h1{
+font-size: 30px;
+font-family: 'Signika', sans-serif;
+font-weight:800;
+text-align: left;
+color:#323232;
+letter-spacing: -1px;
+
+}
+
+div.h1_wrapper{
+padding:20px;
+border-bottom: 4px solid #de1f26; 
+border-radius: 10px;
+box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+}
+
+
+
+.stripped {
+  padding: 2.25em 1.6875em;
+  background-image: -webkit-repeating-linear-gradient(135deg, rgba(0,0,0,.1), rgba(0,0,0,.1) 1px, transparent 3px, transparent 3px, rgba(0,0,0,.1) 3px);
+  background-image: -moz-repeating-linear-gradient(135deg, rgba(0,0,0,.1), rgba(0,0,0,.1) 1px, transparent 3px, transparent 3px, rgba(0,0,0,.1) 3px);
+  background-image: -o-repeating-linear-gradient(135deg, rgba(0,0,0,.1), rgba(0,0,0,.1) 1px, transparent 3px, transparent 3px, rgba(0,0,0,.1) 3px);
+  background-image: repeating-linear-gradient(135deg, rgba(0,0,0,.1), rgba(0,0,0,.1) 1px, transparent 3px, transparent 3px, rgba(0,0,0,.1) 3px);
+  -webkit-background-size: 4px 4px;
+  -moz-background-size: 4px 4px;
+  background-size: 4px 4px;
+  }
+
+div#white_wrapper{
+display: table;
+width:950px;
+min-height: 550px;
+margin: 15px auto;
+padding: 15px;
+background-color: #fff;
+border: 1px solid #D4D4D4; 
+box-shadow: 2px -2px 10px rgba(0,0,0,0.2);
+}
+
+
+div.flyer_wrapper{
+margin-top:20px;
+position:relative;
+}
+
+.image1{
+width: 380px;
+height: 260px;
+position:absolute;
+top:80px;
+left:20px;
+z-index:3;
+}
+.image2{
+width: 380px;
+height: 260px;
+position:absolute;
+top:80px;
+left:20px;
+z-index:4;
+opacity:0.0;
+    -webkit-transition:opacity .5s;
+    transition:opacity .5s;
+}
+
+.image2:hover {
+opacity:0.7;
+}
+
+.image3{
+width: 200px;
+height: 260px;
+position:absolute;
+top:80px;
+left:460px;
+z-index:3;
+}
+.image4{
+width: 200px;
+height: 260px;
+position:absolute;
+top:80px;
+left:460px;
+z-index:4;
+opacity:0.0;
+    -webkit-transition:opacity .5s;
+    transition:opacity .5s;
+}
+
+.image4:hover {
+opacity:0.7;
+}
+
+.flyer_type1 {
+	position:absolute;
+	top:350px;
+	left:175px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.flyer_type2 {
+	position:absolute;
+	top:350px;
+	left:525px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.flyer_subject {
+	padding-left: 20px;
+	font-size: 18px;
+	font-family: 맑은 고딕;
+	font-weight: bold;
+}
+

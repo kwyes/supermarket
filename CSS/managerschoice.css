@@ -1,0 +1,190 @@
+
+
+
+/* following are footer divs */
+
+/* unvisited link */
+nav a:link {
+    color: #747474;
+}
+
+/* visited link */
+nav a:visited {
+    color: #747474;
+}
+
+/* mouse over link */
+nav a:hover {
+    color: #000;
+}
+
+/* selected link */
+nav a:active {
+    color: #000;
+}
+
+nav a:link {
+    text-decoration: none;
+}
+
+nav a:visited {
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: none;
+}
+
+nav a:active {
+    text-decoration: none;
+}
+
+
+nav#side{
+padding: 10px 10px 10px 5px;
+width:170px;
+float:left;
+
+}
+
+nav#side h3{
+color: #e42128;
+font-size: 24px;
+margin:10px 0px;
+padding:0px;
+padding-bottom:3px;
+
+}
+
+
+a.nav_border{
+display:block;
+font-size: 12px;
+border-top: 2px solid #D4D4D4;
+padding:16px 15px ;
+
+}
+
+
+nav#weeklyflyer a#weeklyflyer,
+nav#subscribe a#subscribe,
+nav.managerschoice a#managerschoice{
+font-weight:bold;
+}
+
+
+
+
+/*nav END*/
+
+
+div#white_wrapper{
+display: table;
+width:950px;
+min-height: 500px;
+margin: 15px auto;
+padding: 15px;
+background-color: #fff;
+border: 1px solid #D4D4D4; 
+box-shadow: 2px -2px 10px rgba(0,0,0,0.2);
+}
+
+
+
+div.content_wrapper{
+padding:5px;
+float:right;
+border:0px solid #D4D4D4; /* delete when done*/ 
+width:77%
+}
+
+
+
+div.content_wrapper h1{
+font-size: 30px;
+font-family: 'Signika', sans-serif;
+font-weight:800;
+text-align: left;
+color:#323232;
+letter-spacing: -1px;
+
+}
+
+div.h1_wrapper{
+padding:20px;
+border-bottom: 4px solid #de1f26; 
+border-radius: 10px;
+box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+}
+
+
+.stripped {
+  padding: 2.25em 1.6875em;
+  background-image: -webkit-repeating-linear-gradient(135deg, rgba(0,0,0,.1), rgba(0,0,0,.1) 1px, transparent 3px, transparent 3px, rgba(0,0,0,.1) 3px);
+  background-image: -moz-repeating-linear-gradient(135deg, rgba(0,0,0,.1), rgba(0,0,0,.1) 1px, transparent 3px, transparent 3px, rgba(0,0,0,.1) 3px);
+  background-image: -o-repeating-linear-gradient(135deg, rgba(0,0,0,.1), rgba(0,0,0,.1) 1px, transparent 3px, transparent 3px, rgba(0,0,0,.1) 3px);
+  background-image: repeating-linear-gradient(135deg, rgba(0,0,0,.1), rgba(0,0,0,.1) 1px, transparent 3px, transparent 3px, rgba(0,0,0,.1) 3px);
+  -webkit-background-size: 4px 4px;
+  -moz-background-size: 4px 4px;
+  background-size: 4px 4px;
+  }
+
+table,table td, table th {
+border: 5px solid #fff; 
+
+}
+
+table{
+margin-top:15px;
+position:relative;
+}
+
+table td{
+text-align: center;
+position:relative;
+height:320px;
+width: 230px;
+vertical-align: bottom;
+}
+
+
+td h3{
+
+font-size: 14px;
+font-weight: bold;
+padding:3px;
+}
+
+
+td p{
+font-size: 13px;
+padding:5px;
+
+}
+
+
+.under
+{
+position:absolute;
+left:3px;
+top:0px;
+z-index:3;
+}
+.over
+{
+position:absolute;
+left:3px;
+top:3px;
+z-index:4;
+}
+
+div.choice_wrapper{
+	position:relative;
+}
+
+.choice_subject {
+	font-size: 18px;
+	font-family: 맑은 고딕;
+	font-weight: bold;
+	padding: 12px 0;
+}

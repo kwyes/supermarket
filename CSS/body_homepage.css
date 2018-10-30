@@ -1,0 +1,405 @@
+
+
+
+
+
+
+
+@-webkit-keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+@-moz-keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+div#gray_wrapper{
+height:443px;
+background-color: #DEDFE3;
+position: relative;
+z-index: 0;
+}
+
+
+
+div#slider { 
+width: 100%; 
+max-width: 980px; 
+overflow: hidden;
+margin:0 auto;
+}
+
+div#slider figure img { width: 20%; height: auto; float: left; }
+
+div#slider figure {
+position: relative;
+z-index: 5;
+width: 500%;
+margin: 0; padding: 0; font-size: 0; 
+text-align: left; 
+-webkit-animation: 30s slidy infinite;
+-moz-animation: 30s slidy infinite;
+animation: 30s slidy infinite;
+}
+
+
+/* -----------------------------up to slider-----------------------------------*/
+
+div#articles_wrapper{
+width: 980px;
+height: 350px;
+margin: 0 auto;
+margin-top: 5px;
+padding: 0px;
+}
+
+
+
+
+article#wrapper1{
+width:230px;
+height: 330px;
+padding:3px;
+margin: 3px;
+margin-left: 0px;
+border-style: solid;
+border-width: 1px;
+border-color: #D4D4D4;
+float:left;
+}
+
+
+
+article#managers {
+	padding: 18px;
+}
+
+article#managers_textbox {
+float:left;
+width:150px;
+}
+
+h3 {
+	display: block;
+	color: #be1b00;
+	font-size: 13px;
+	font-weight: bold;
+	margin-bottom: 8px;
+	font-family: 나눔고딕,NanumGothic,돋움,Dotum;
+}
+
+article p.body {
+	display: block;
+	color: #484848;
+	font-size: 12px;
+	line-height: 120%;
+}
+ p.comment {
+	display: block;
+	color: #b9b9b9;
+	font-size: 11px;
+	margin-top: 8px;
+}
+
+
+div.right_arrow_icon {
+	float:left;
+	width: 42px;
+	height: 42px;
+	margin-top: 12px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+/* --------------zig zag border for manager's choice------------------*/
+.zigzag {
+  position: relative;
+  width: 100%;
+  height: 50px;
+}
+.zigzag:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -8px;
+  left: -3px;
+  width: 88%;
+  height: 10px;
+}
+
+article#managers:before {
+  background:
+    linear-gradient(
+      45deg, transparent 33.333%,
+      #ffffff 33.333%, #ffffff 66.667%,
+      transparent 66.667%
+    ),
+    linear-gradient(
+      -45deg, transparent 33.333%,
+      #ffffff 33.333%, #ffffff 66.667%,
+      transparent 66.667%
+    );
+  background-size: 8px 16px;
+}
+
+/* --------------wrapper2-----------------*/
+article#wrapper2{
+height: 330px;
+padding:3px;
+margin: 3px;
+margin-left:9px;
+border-style: solid;
+border-width: 1px;
+border-color: #D4D4D4;
+float:left;
+}
+article#village {
+	padding: 18px;
+	
+}
+article#village_textbox {
+float:left;
+width:270px;
+}
+
+
+
+
+/* --------------zig zag border for hannam village------------------*/
+.zigzag2 {
+  position: relative;
+  width: 100%;
+  height: 50px;
+}
+.zigzag2:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -8px;
+  left: -3px;
+  width: 92%;
+  height: 10px;
+}
+
+article#village:before {
+  background:
+    linear-gradient(
+      45deg, transparent 33.333%,
+      #ffffff 33.333%, #ffffff 66.667%,
+      transparent 66.667%
+    ),
+    linear-gradient(
+      -45deg, transparent 33.333%,
+      #ffffff 33.333%, #ffffff 66.667%,
+      transparent 66.667%
+    );
+  background-size: 8px 16px;
+}
+
+
+
+/* --------------wrapper3 tabs-----------------*/
+
+
+@import url("http://fonts.googleapis.com/css?family=Lato");
+
+div.tab1sub:first-child{
+	border-bottom: 1px solid #D4D4D4; 
+	border-right: 1px solid #D4D4D4; 
+	border-left: 1px solid #D4D4D4; 
+	width: 338px;
+	height: 35px;
+	float:right;
+	margin-left:0px;
+	padding: 17px 10px 10px 10px;
+}
+div.tab1sub{
+	border-bottom: 1px solid #D4D4D4; 
+	border-right: 1px solid #D4D4D4; 
+	border-left: 1px solid #D4D4D4; 
+	width: 338px;
+	height: 35px;
+	float:right;
+	margin-left:0px;
+	padding: 11px 10px;
+}
+
+div.tab2sub:first-child {
+	border-bottom: 1px solid #D4D4D4; 
+	border-right: 1px solid #D4D4D4; 
+	border-left: 1px solid #D4D4D4; 
+	width: 338px;
+	height: 35px;
+	float:right;
+	margin-left:0px;
+	padding: 17px 10px 10px 10px;
+
+}
+div.tab2sub {
+	border-bottom: 1px solid #D4D4D4; 
+	border-right: 1px solid #D4D4D4; 
+	border-left: 1px solid #D4D4D4; 
+	width: 338px;
+	height: 35px;
+	float:right;
+	margin-left:0px;
+	padding: 11px 10px;
+}
+
+div.tab2pic, div.tab2text{
+float:left;
+}
+
+div.tab2text{
+	width: 260px;
+	margin-left:7px;
+}
+
+
+h4.tab1h, h4.tab2h {
+	display: block;
+	color: #8e8e8e;
+	height: 13px;
+	font-size: 13px;
+	font-weight: bold;
+	margin-bottom: 8px;
+	font-family: 나눔고딕,NanumGothic,돋움,Dotum;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin-top: 12px;
+}
+
+p.tab1body, p.tab2body {
+	display: block;
+	color: #8e8e8e;
+	height: 11px;
+	line-height: middle;
+	font-family: 나눔고딕,NanumGothic,돋움,Dotum;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+
+
+
+.tabmain {
+width: 360px;
+height: 330px;
+float: right;
+padding-top: 3px;
+padding-left: 6px;
+}
+
+.tabcontent {
+background: #fff; 
+color: #373737; 
+}
+
+div.tabcontent > div#tabcontent1,
+div.tabcontent > div#tabcontent2
+{
+display: none; 
+padding: 0px;
+}
+
+input#tab1, input#tab2 {
+display: none;
+}
+
+div.tabmain > label {
+display: inline-block; 
+float: left;
+width:138px;
+padding: 15px 20px; 
+font-family: Verdana, Geneva, sans-serif;
+font-weight: 500; 
+font-size: 12px;
+text-align: center; 
+color: #fff;
+background-color: #9f9f9f;
+	border-top: 1px solid #D4D4D4; 
+	border-right: 1px solid #D4D4D4; 
+	border-left: 1px solid #D4D4D4; 
+}
+
+label:hover {
+color: #fff; 
+background-color: #a4a4a4;
+cursor: pointer;
+}
+
+input:checked + label {
+background: #fff; 
+color: #a4a4a4;
+}
+
+
+#tab1:checked ~ .tabcontent #tabcontent1
+ {display: block;
+}
+
+#tab2:checked ~ .tabcontent #tabcontent2
+ {display: block;
+}
+
+
+
+/* following are video divs */
+
+div.promovideo{
+width:981px;
+margin: 0 auto;
+margin-top:15px; 
+height:140px;
+}
+
+
+div.video{
+padding: 3px;
+float:left;
+
+}
+
+div.promovideo h2{
+font-size: 18px;
+font-weight: bold;
+margin: 5px;
+font-family: 'Ubuntu', sans-serif;
+color: #222222;
+}
