@@ -1,0 +1,3 @@
+<?
+header( "Location: admin.php" );
+?>
